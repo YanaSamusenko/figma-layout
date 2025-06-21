@@ -1,0 +1,37 @@
+.header {
+  padding: 10px 0px;
+  background-color: #000;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-wrap {
+}
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 300;
+}
+.logo-color {
+  color: #ec7979;
+  font-size: 42px;
+  font-weight: 300;
+}
+.header-nav {
+  width: 580px;
+}
+.header-nav_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav_list-item {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+}
