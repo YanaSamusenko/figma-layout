@@ -1,0 +1,48 @@
+.social {
+  padding: 20px 0px;
+  background-color: #f8efef;
+}
+.wrap-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrap_social-info {
+  display: flex;
+  flex-direction: column;
+}
+.social-title {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  margin-bottom: 20px;
+  text-align: left;
+}
+.social-text {
+  margin: 0 auto 10px;
+  text-align: left;
+}
+.social-text p {
+  color: #86878b;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrap_social-link {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-pinterest,
+.fa-instagram,
+.fa-github {
+  font-size: 54px;
+  color: #86878bd6;
+}
