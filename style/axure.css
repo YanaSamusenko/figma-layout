@@ -3,6 +3,10 @@
   background-image: url(../img/image.svg);
   position: relative;
   overflow: hidden;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 }
 
 .axure::after {
@@ -13,18 +17,25 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
 .axure-btn {
   margin: 0 auto 3px;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   width: 370px;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
+   position: relative;
+    transition: 0.4s;
+}
+.axure-btn:hover{
+   transform: scale(0.95);
+     border: 2px solid #ec7979;
+
 }
 .axure-dowload {
   line-height: 58px;
@@ -33,4 +44,9 @@
   font-size: 18px;
   font-weight: 600;
   width: 100%;
+   position: relative;
+    transition: 0.4s;
+}
+.axure-dowload:hover{
+  color: #ec7979;
 }

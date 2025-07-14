@@ -1,0 +1,17 @@
+.footer {
+    background-color: #000000;
+    padding: 35px 0 25px 0 ;
+}
+.footer__navigation{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+   
+}
+.footer__title {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+
+}

@@ -1,0 +1,166 @@
+.axit {
+  padding: 250px 0px 150px;
+  background-image: url(../img/firstscreen.svg);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.axit::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 21, 21, 0.76);
+    z-index: 1;
+}
+
+.axit__wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.axit__left_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    
+
+}
+.axit__logo_wrap {
+ margin-bottom: 72px;
+ 
+}
+
+.axit__logo {
+    color: #ffffff;
+   font-size: 60px; 
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 500;
+ 
+}
+.axit__logo_color{
+    color: #ec7979;
+
+}
+.axit__title {
+    font-family: "Raleway";
+    font-size: 48px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+}
+
+.axit__title::after{
+    content: "";
+    width: 170px;
+    height: 1px;
+    display: block;
+    background-color: #ffffff;
+    margin: 55px 0 42px;
+    
+
+}
+.axit__subtitle {
+    margin-bottom: 42px;
+}
+
+.axit__subtitle p{
+ font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.axit__btn_download {
+    display: flex;
+    margin-bottom: 10px;
+    width:  270px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    position: relative;
+    transition: 0.4s;
+   
+}
+.axit__btn_download:hover{
+    transform: scale(0.95);
+     border: 2px solid #ec7979;
+}
+
+.axit__btn_download a{
+    width: 100%;
+    line-height: 58px;
+     color: #ffffff;
+     font-size: 18px;
+     font-family: 'Open Sans';
+     font-weight: 600;
+     position: relative;
+    transition: 0.4s;
+}
+.axit__btn_download a:hover{
+    color: #ec7979;
+}
+.axit__form {
+    display: flex;
+    flex-direction: column;  
+    position: relative;
+    transition: 0.4s;
+}
+.axit__form:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 25px 0px;
+}
+
+.axit__form_wrap {
+    width: 100%;
+       max-width: 470px;
+    max-height: 450px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 35px 50px 75px;
+    margin: 0 auto;
+}
+.axit__form_title {
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.axit__form_title span{
+    color: #ec7979;
+}
+.axit__form_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+.axit__form_item:last-child{
+    margin-bottom: 0px;
+}
+.axit__form_name,
+.axit__form_email,
+.axit__form_password {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    
+
+}
+
+.axit__form_submit {
+    line-height: 60px;
+    background-color: #ec7979;
+    color: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 500;
+}

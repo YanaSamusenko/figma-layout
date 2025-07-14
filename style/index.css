@@ -1,9 +1,13 @@
 @import url("../style/cdn.css");
 @import url("../style/header.css");
+@import url("../style/axit.css");
 @import url("../style/social.css");
 @import url("../style/awesome.css");
 @import url("../style/pricing.css");
+@import url("./customers.css");
 @import url("../style/axure.css");
+@import url("../style/contact.css");
+@import url("../style/footer.css");
 
 * {
   margin: 0;
@@ -25,6 +29,23 @@ html {
   z-index: 2;
 }
 
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  color: #BDBDBD;
+}
+
 .title {
   color: #000000;
   font-size: 36px;
@@ -41,6 +62,7 @@ html {
   background-color: #ec7979;
   display: block;
   margin: 40px auto 0;
+  text-transform: uppercase;
 }
 .subtitle {
   font-size: 18px;
@@ -64,3 +86,4 @@ html {
 .subtitle-axure {
   color: #ffffff;
 }
+

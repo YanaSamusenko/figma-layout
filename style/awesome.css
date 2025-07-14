@@ -23,6 +23,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  transition: 0.5s;
+}
+.card-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px 0 #ec7979;
 }
 
 .fa-lightbulb,
