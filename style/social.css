@@ -15,7 +15,7 @@
   max-width: 470px;
   margin-right: 10px;
 }
-.social__info_title {
+.social__info-title {
    color: #333333;
   font-size: 24px;
   font-weight: 600;
@@ -23,12 +23,12 @@
   margin-bottom: 20px;
   text-align: left;
 }
-.social__info_text {
+.social__info-text {
   margin: 0 auto 10px;
   text-align: left;
 }
 
-.social__info_text p{
+.social__info-text p{
   color: #86878b;
   font-size: 18px;
   font-weight: 500;
@@ -40,7 +40,6 @@
 .socials__item {
    display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -48,11 +47,11 @@
 }
 
 
-.socials__item_icon i{
+.socials__item-icon i{
   transition: 0.6s;
   
 }
-.socials__item_icon i:hover {
+.socials__item-icon i:hover {
   color: #ec7979;
   transform: scale(1.1);
 
@@ -67,5 +66,80 @@
   font-size: 46px;
   color: #CCCCCC;
   
+}
+
+
+
+@media (max-width: 1200px) {
+  .social {
+  padding: 13px 0px;
+  background-color: #f8efef;
+}
+.container {
+  max-width: 992px;
+}
+
+.social__info {
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 405px;
+  margin-right: 10px;
+}
+.social__info-title {
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+.social__info-text {
+  margin: auto;
+  text-align: left;
+}
+
+.social__info-text p{
+  font-size: 14px;
+}
+.socials {
+    width: 550px;
+
+}
+
+}
+
+@media (max-width: 320px) {
+    .social {
+  padding: 20px 0px;
+  background-color: #f8efef;
+}
+.social__wrap {
+  flex-direction: column;
+}
+.social__info {
+  width: 100%;
+  margin: 0px auto 32px;
+}
+.social__info-title {
+  font-size: 18px;
+  text-align: center;
+}
+.social__info-text {
+  margin: auto;
+  text-align: center;
+}
+
+.social__info-text p{
+  font-size: 14px;
+}
+.socials {
+    width: 100%;
+
+}
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-pinterest,
+.fa-instagram,
+.fa-github {
+  font-size: 26px;
+}
 }
 

@@ -9,17 +9,21 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header-wrap">
-          <div class="logo-wrap">
-            <p class="logo">AX<span class="logo-color">IT</span></p>
+        <div class="header__wrap">
+          <div class="header__logo-wrap">
+            <p class="logo">AX<span class="logo_color">IT</span></p>
           </div>
-          <nav class="header-nav">
-            <ul class="header-nav_list">
-              <li class="nav_list-item">features</li>
-              <li class="nav_list-item">About</li>
-              <li class="nav_list-item">Pricing</li>
-              <li class="nav_list-item">Reviews</li>
-              <li class="nav_list-item">Contact</li>
+          <nav class="header__nav">
+             <input type="checkbox" id="burger">
+            <label class="burger-toggle" for="burger">
+              <span></span>
+            </label>
+            <ul class="header__nav-list">
+              <li class="header__nav-item">features</li>
+              <li class="header__nav-item">About</li>
+              <li class="header__nav-item">Pricing</li>
+              <li class="header__nav-item">Reviews</li>
+              <li class="header__nav-item">Contact</li>
             </ul>
           </nav>
         </div>
@@ -28,8 +32,8 @@
     <section class="axit">
       <div class="container">
         <div class="axit__wrap">
-        <div class="axit__left_content">
-          <div class="axit__logo_wrap">
+        <div class="axit__left-content">
+          <div class="axit__logo-wrap">
             <p class="axit__logo">AX<span class="axit__logo_color">IT</span></p>
           </div>
           <h1 class="axit__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
@@ -39,24 +43,24 @@
             </div>
         </div>
 
-        <div class="axit__right_content">
+        <div class="axit__right-content">
           <form class="axit__form">
-            <div class="axit__form_wrap">
-              <h3 class="axit__form_title">Try Your <span>FREE</span> Trial Today</h3>
-              <div class="axit__form_item">
+            <div class="axit__form-wrap">
+              <h3 class="axit__form-title">Try Your <span>FREE</span> Trial Today</h3>
+              <div class="axit__form-item">
               <label for="name">Name</label>
-              <input type="text" class="axit__form_name" name="name" id="name"/>
+              <input type="text" class="axit__form-item_name" name="name" id="name"/>
             </div>
-            <div class="axit__form_item">
+            <div class="axit__form-item">
               <label for="email">Email</label>
-              <input type="email" class="axit__form_email" name="email" id="email"/>
+              <input type="email" class="axit__form-item_email" name="email" id="email"/>
             </div>
-            <div class="axit__form_item">
+            <div class="axit__form-item">
               <label for="password">Password</label>
-              <input type="password" class="axit__form_password" name="password" id="password"/>
+              <input type="password" class="axit__form-item_password" name="password" id="password"/>
             </div>
             </div>
-            <button class="axit__form_submit" type="submit">Get Started</button>
+            <button class="axit__form-btn_submit" type="submit">Get Started</button>
           </form>
         </div>
       </div>
@@ -66,8 +70,8 @@
       <div class="container">
         <div class="social__wrap">
           <div class="social__info">
-            <h3 class="social__info_title">Social Media</h3>
-            <div class="social__info_text">
+            <h3 class="social__info-title">Social Media</h3>
+            <div class="social__info-text">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet.
@@ -76,31 +80,31 @@
           </div>
           <nav class="socials">
             <ul class="socials__item">
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://www.facebook.com"
                   ><i class="fa-brands fa-facebook"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://twitter.com/"
                   ><i class="fa-brands fa-twitter"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="#"
                   ><i class="fa-brands fa-linkedin"></i></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://www.pinterest.com"
                   ><i class="fa-brands fa-pinterest"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://www.instagram.com"
                   ><i class="fa-brands fa-instagram"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="#"
                   ><i class="fa-brands fa-github"></i></a>
               </li>
@@ -115,13 +119,13 @@
         <p class="subtitle">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <div class="cards-wrap">
-          <div class="card">
-            <div class="card-img">
+        <div class="awesome__cards-wrap">
+          <div class="awesome__card">
+            <div class="awesome__card-img">
               <i class="fa-solid fa-lightbulb"></i>
             </div>
-            <h3 class="card-title">Thoughtful Design</h3>
-            <div class="card-text">
+            <h3 class="awesome__card-title">Thoughtful Design</h3>
+            <div class="awesome__card-text">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet. Proin gravida dolor sit amet lacus
@@ -129,12 +133,12 @@
               </p>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
+          <div class="awesome__card">
+            <div class="awesome__card-img">
               <i class="fa-solid fa-keyboard"></i>
             </div>
-            <h3 class="card-title">Thoughtful Design</h3>
-            <div class="card-text">
+            <h3 class="awesome__card-title">Thoughtful Design</h3>
+            <div class="awesome__card-text">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet. Proin gravida dolor sit amet lacus
@@ -142,12 +146,12 @@
               </p>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
+          <div class="awesome__card">
+            <div class="awesome__card-img">
               <i class="fa-solid fa-bolt-lightning"></i>
             </div>
-            <h3 class="card-title">Thoughtful Design</h3>
-            <div class="card-text">
+            <h3 class="awesome__card-title">Thoughtful Design</h3>
+            <div class="awesome__card-text">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet. Proin gravida dolor sit amet lacus
@@ -166,39 +170,39 @@
         <p class="subtitle">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <div class="pricing__lists_wrap">
+        <div class="pricing__lists-wrap">
           <ul class="pricing__list">
-            <li class="pricing__list_title">Basic</li>
-            <li class="pricing__list_price">$10</li>
-            <li class="pricing__list_subtitle">Free for life</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
+            <li class="pricing__list-title">Basic</li>
+            <li class="pricing__list-price">$10</li>
+            <li class="pricing__list-subtitle">Free for life</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
           </ul>
           <ul class="pricing__list">
-            <li class="pricing__list_title">Optima</li>
-            <li class="pricing__list_price">$20</li>
-            <li class="pricing__list_subtitle">Free for life</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
+            <li class="pricing__list-title">Optima</li>
+            <li class="pricing__list-price">$20</li>
+            <li class="pricing__list-subtitle">Free for life</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
           </ul>
           <ul class="pricing__list">
-            <li class="pricing__list_title">Pro</li>
-            <li class="pricing__list_price">$30</li>
-            <li class="pricing__list_subtitle">Free for life</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
-            <li class="pricing__list_item">1 gb of space</li>
+            <li class="pricing__list-title">Pro</li>
+            <li class="pricing__list-price">$30</li>
+            <li class="pricing__list-subtitle">Free for life</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
+            <li class="pricing__list-item">1 gb of space</li>
           </ul>
         </div>
       </div>
@@ -209,6 +213,10 @@
         <p class="subtitle">
          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
+         <div class="customers__slider">
+            <input type="radio" name="slider" id="slide-1" checked>
+            <input type="radio" name="slider" id="slide-2">
+            <input type="radio" name="slider" id="slide-3">
         <div class="customers__cards">
           <div class="customers__card">
             <div class="customers__text">
@@ -223,7 +231,7 @@ quo suscipit.</p>
                 <img src="./img/820782fb4461db0c62f94c53a2f279f0.jpg" alt=".">
               </div>
               <div class="customers__info"> 
-                <p class="customers__name">Angelina Jolie</p>
+                <h3 class="customers__name">Angelina Jolie</h3>
                 <p class="customers__position">Actress</p>
               </div>
             </div>
@@ -241,7 +249,7 @@ quo suscipit.</p>
                 <img src="./img/bf1286f88840b922863d4a8ac8c6169e.jpg" alt=".">
               </div>
               <div class="customers__info"> 
-                <p class="customers__name">Angelina Jolie</p>
+                <h3 class="customers__name">Angelina Jolie</h3>
                 <p class="customers__position">Actress</p>
               </div>
             </div>
@@ -259,22 +267,29 @@ quo suscipit.</p>
                 <img src="./img/ce86e0164c12db932b5df27dd8197cd1.jpg" alt=".">
               </div>
               <div class="customers__info"> 
-                <p class="customers__name">Angelina Jolie</p>
+                <h3 class="customers__name">Angelina Jolie</h3>
                 <p class="customers__position">Actress</p>
               </div>
             </div>
           </div>
       </div>
+         <div class="customers__controls">
+                <label for="slide-1" class="customers__control"></label>
+                <label for="slide-2" class="customers__control"></label>
+                <label for="slide-3" class="customers__control"></label>
+            </div>
+        </div>
+        </div>
     </section>
     <section class="axure">
       <div class="container">
-        <h2 class="title title-axure">STYLISH AXURE DESIGN</h2>
-        <p class="subtitle subtitle-axure">
+        <h2 class="title axure__title">STYLISH AXURE DESIGN</h2>
+        <p class="subtitle axure__subtitle">
           Use the sections you need, remove the ones you don't. Create gorgeous
           prototypes faster than ever!
         </p>
-        <div class="axure-btn">
-          <a href="#" class="axure-dowload">Download</a>
+        <div class="axure__btn">
+          <a href="#" class="axure__btn-download">Download</a>
         </div>
       </div>
     </section>
@@ -316,38 +331,38 @@ quo suscipit.</p>
         <div class="footer__navigation">
        <nav class="socials">
             <ul class="socials__item">
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://www.facebook.com"
                   ><i class="fa-brands fa-facebook"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://twitter.com/"
                   ><i class="fa-brands fa-twitter"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="#"
                   ><i class="fa-brands fa-linkedin"></i></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://www.pinterest.com"
                   ><i class="fa-brands fa-pinterest"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="https://www.instagram.com"
                   ><i class="fa-brands fa-instagram"></i
                 ></a>
               </li>
-              <li class="socials__item_icon">
+              <li class="socials__item-icon">
                 <a href="#"
                   ><i class="fa-brands fa-github"></i></a>
               </li>
             </ul>
           </nav>
           </div>
-          <h5 class="footer__title">© 2015 Axure Themes</h5>
+          <p class="footer__title">© 2015 Axure Themes</p>
       </div>
     </footer>
   </body>

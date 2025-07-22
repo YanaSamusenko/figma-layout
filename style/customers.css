@@ -2,27 +2,24 @@
  padding: 80px 0px;
   background-color: #fff;
 }
+
 .customers__cards {
-    display: flex;
+  display: flex;
     justify-content: space-between;
-  
 }
 
 .customers__card {
     width: 370px;
     margin-bottom: 10px;
-    margin-right: 10px;
     position: relative;
     transition: 0.6s;
+       margin-right: 10px;
    
-}
-
-.customers__card:hover{
-    transform: scale(1.05);
 }
 .customers__card:last-child{
       margin-right: 0px;
 }
+
 .customers__text {
     position: relative;
     background-color: #E2E2E2;
@@ -39,7 +36,7 @@
 content: "";
 position: absolute;
 top: 100%;
-  left: 45px;
+ left: 15%;
   border: 15px solid transparent;
   border-top: 15px solid #E2E2E2;
 }
@@ -84,4 +81,129 @@ top: 100%;
     font-size: 18px;
     font-weight: 500;
    
+}
+
+
+@media (max-width: 994px) {
+.customers {
+ padding: 60px 0px;
+}
+
+.customers__card {
+    width: 315px;
+}
+.customers__text {
+    padding: 50px 25px;  
+}
+.customers__text p{
+    font-size: 14px;
+}
+.customers__avatar {
+    width: 63px;
+    height: 63px;
+}
+.customers__info {
+    margin-left: 23px;
+}
+.customers__name {
+ font-size: 18px;
+
+}
+.customers__position {
+    font-size: 14px; 
+}
+}
+
+@media (max-width: 320px) {
+.customers {
+    padding: 30px 0px;
+    background-color: #fff;
+}
+ .customers__slider {
+        position: relative;
+        overflow: hidden;
+        width: 100%; 
+    }
+.customers__cards {
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease;
+}
+
+.customers__card {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    flex: 0 0 100%;
+   
+}
+
+.customers__text {
+    padding: 45px 15px;
+    max-width: 288px;
+    
+}
+
+.customers__text p{
+    font-size: 14px;
+}
+.customers__avatar {
+    width: 57px;
+    height: 57px;
+}
+
+.customers__info {
+    margin-left: 20px;
+}
+.customers__name {
+ font-size: 14px;
+
+}
+.customers__position {
+    font-size: 13px;
+   
+}
+
+
+#slide-1:checked ~ .customers__cards {
+        transform: translateX(0%);
+    }
+    #slide-2:checked ~ .customers__cards {
+        transform: translateX(-100%);
+    }
+    #slide-3:checked ~ .customers__cards {
+        transform: translateX(-200%);
+    }
+    
+    /* Стили для контролов слайдера */
+    .customers__controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .customers__control {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #ccc;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    /* Активная точка */
+    #slide-1:checked ~ .customers__controls label:nth-child(1),
+    #slide-2:checked ~ .customers__controls label:nth-child(2),
+    #slide-3:checked ~ .customers__controls label:nth-child(3) {
+        background-color: #000;
+    }
+    
+    /* Скрываем радио-кнопки */
+    .customers__slider input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
 }

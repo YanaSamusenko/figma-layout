@@ -23,16 +23,15 @@
 .axit__wrap{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
-.axit__left_content {
+.axit__left-content {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     
 
 }
-.axit__logo_wrap {
+.axit__logo-wrap{
  margin-bottom: 72px;
  
 }
@@ -85,7 +84,7 @@
     text-align: center;
     position: relative;
     transition: 0.4s;
-   
+    line-height: 58px;
 }
 .axit__btn_download:hover{
     transform: scale(0.95);
@@ -105,56 +104,62 @@
 .axit__btn_download a:hover{
     color: #ec7979;
 }
+.axit__right-content{
+    width: 470px;
+
+}
 .axit__form {
     display: flex;
     flex-direction: column;  
     position: relative;
     transition: 0.4s;
+    width: 100%;
+    
 }
 .axit__form:hover {
     transform: scale(1.03);
     box-shadow: 0px 0px 25px 0px;
 }
 
-.axit__form_wrap {
+.axit__form-wrap {
     width: 100%;
-       max-width: 470px;
-    max-height: 450px;
     background-color: #ffffff;
     border-radius: 5px 5px 0px 0px;
-    padding: 35px 50px 75px;
+    padding: 36px 51.5px 75px;
     margin: 0 auto;
 }
-.axit__form_title {
+.axit__form-title {
     font-size: 24px;
     font-family: 'Open Sans';
+    text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 70px;
+    margin-bottom: 75px;
     text-align: center;
 }
-.axit__form_title span{
+.axit__form-title span{
     color: #ec7979;
 }
-.axit__form_item {
+.axit__form-item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
-    line-height: 40px;
+    margin-bottom: 28px;
+    max-height: 40px;
 }
-.axit__form_item:last-child{
+.axit__form-item:last-child{
     margin-bottom: 0px;
 }
-.axit__form_name,
-.axit__form_email,
-.axit__form_password {
+.axit__form-item_name,
+.axit__form-item_email,
+.axit__form-item_password {
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 100%;
+    line-height: 21px;
     
 
 }
 
-.axit__form_submit {
+.axit__form-btn_submit {
     line-height: 60px;
     background-color: #ec7979;
     color: #ffffff;
@@ -163,4 +168,131 @@
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 500;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 992px;
+    }
+.axit__left-content {
+    max-width: 455px;
+}
+    .axit__logo-wrap {
+ margin-bottom: 72px;
+}
+.axit__logo {
+   font-size: 42px; 
+}
+.axit__title {
+    font-size: 36px;  
+}
+.axit__title::after{
+    width: 115px;
+    margin: 41px 0 30px;
+}
+.axit__subtitle {
+    margin-bottom: 31px;
+}
+
+.axit__subtitle p{
+    font-size: 14px;
+}
+.axit__btn_download {
+    display: flex;
+    margin-bottom: 10px;
+    width:  183px;  
+}
+.axit__btn_download a{
+    line-height: 50px;
+}
+.axit__right-content{
+    width: 398px;
+}
+
+.axit__form-title {
+    font-size: 18px;
+    line-height: 32.5px;
+}
+}
+
+
+@media (max-width: 320px) {
+    .axit {
+  padding: 85px 0px 50px;
+}
+.container{
+    max-width: 288px;
+}
+.axit__wrap{
+    display: flex;
+    flex-direction: column;  
+}
+.axit__left-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.axit__logo-wrap {
+ display: none;
+}
+
+.axit__title {
+    font-size: 34px;
+    text-align: center;
+}
+
+.axit__title::after{
+    width: 134px;
+    margin: 55px auto 42px;
+}
+.axit__subtitle {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.axit__subtitle p{
+    font-size: 14px;
+}
+.axit__btn_download {
+    width:  100%;
+   line-height: 50px;
+   margin:0 auto 56px;
+}
+.axit__btn_download:hover{
+    transform: scale(0.95);
+     border: 2px solid #ec7979;
+}
+
+.axit__right-content{
+    width: 100%;
+
+}
+.axit__form {
+    display: flex;
+    flex-direction: column;  
+    position: relative;
+    transition: 0.4s;
+    width: 100%;
+    
+}
+.axit__form:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 25px 0px;
+}
+
+.axit__form-wrap {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 30px 25px 50px;
+    margin: 0 auto;
+}
+.axit__form-title {
+    font-size: 14px;
+    margin-bottom: 37px;  
+}
+
 }

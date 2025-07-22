@@ -44,6 +44,7 @@ input:focus {
 
 label {
   color: #BDBDBD;
+  font-size: 14px
 }
 
 .title {
@@ -71,10 +72,10 @@ label {
   margin: 0px auto 90px;
   text-align: center;
 }
-.title-axure {
+.axure__title {
   color: #ffffff;
 }
-.title-axure::after {
+.axure__title::after {
   content: "";
   width: 170px;
   height: 1px;
@@ -83,7 +84,40 @@ label {
   margin: 40px auto 0;
 }
 
-.subtitle-axure {
+.axure__subtitle {
   color: #ffffff;
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+  max-width: 992px;
+}
+  .title {
+  font-size: 24px;
+}
+
+.title::after {
+  width: 142px;
+  margin: 32px auto 0;
+}
+.subtitle {
+  font-size: 14px;
+  margin: 0px auto 32px;
+}
+.axure__title::after {
+  width: 142px;
+  margin: 32px auto 0;
+}
+
+}
+
+@media (max-width: 320px) {
+    .container {
+  max-width: 288px;
+  margin: 0 auto;
+  padding: 0;
+    
+}
 }
 

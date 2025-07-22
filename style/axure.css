@@ -21,7 +21,7 @@
   z-index: 1;
 }
 
-.axure-btn {
+.axure__btn {
   margin: 0 auto 3px;
   border: 2px solid #ffffff;
   width: 370px;
@@ -32,12 +32,12 @@
    position: relative;
     transition: 0.4s;
 }
-.axure-btn:hover{
+.axure__btn:hover{ 
    transform: scale(0.95);
      border: 2px solid #ec7979;
 
 }
-.axure-dowload {
+.axure__btn-download {
   line-height: 58px;
   color: #ffffff;
   font-family: "Open Sans";
@@ -47,6 +47,28 @@
    position: relative;
     transition: 0.4s;
 }
-.axure-dowload:hover{
+.axure__btn-download:hover{
   color: #ec7979;
+}
+
+
+
+@media (max-width: 1200px) {
+  .axure {
+  padding: 50px 0px;
+ 
+}
+.axure__btn {
+  width: 318px;
+}
+}
+
+@media (max-width: 320px) {
+     .axure {
+  padding: 50px 0px;
+ 
+}
+.axure__btn {
+  width: 287px;
+}
 }
