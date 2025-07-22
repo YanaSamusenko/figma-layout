@@ -2,7 +2,9 @@
  padding: 80px 0px;
   background-color: #fff;
 }
-
+input {
+    display: none;
+}
 .customers__cards {
   display: flex;
     justify-content: space-between;
