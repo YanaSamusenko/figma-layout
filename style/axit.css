@@ -23,6 +23,7 @@
 .axit__wrap{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .axit__left-content {
     display: flex;
