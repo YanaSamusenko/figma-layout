@@ -7,6 +7,7 @@
 }
 .contact__form-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 50px;
    
@@ -17,12 +18,15 @@
     
 }
 .contact__form-item {
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     line-height: 38px;
 }
-
+.contact__form-item:last-child{
+    margin-bottom: 0px;
+}
 .contact__name,
 .contact__email,
 .contact__password {
@@ -58,13 +62,11 @@ border: none;
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .contact {
     padding: 50px 0px;
 }
-.contact__form-content {
-flex-wrap: wrap;
-}
+
 .contact__form-content_left {
     margin-right: 20px;
     width: 486px;
