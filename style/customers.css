@@ -6,13 +6,9 @@
     display: none;
 }
 
-.slider {
-    display: none;
-}
 .customers__cards {
   display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .customers__card {
@@ -91,7 +87,7 @@ top: 100%;
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 994px) {
 .customers {
  padding: 60px 0px;
 }

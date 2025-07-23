@@ -69,12 +69,9 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .pricing {
   padding: 50px 0px;
-}
-.pricing__lists-wrap {
-  flex-wrap: wrap;
 }
 .pricing__list {
   width: 315px;

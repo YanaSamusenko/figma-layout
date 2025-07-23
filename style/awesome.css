@@ -5,7 +5,6 @@
 .awesome__cards-wrap {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .awesome__card {
   display: flex;
@@ -55,7 +54,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 .awesome {
   padding: 68px 0px;
 }
