@@ -4,7 +4,6 @@
 }
 .social__wrap {
     display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -70,25 +69,25 @@
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .social {
   padding: 13px 0px;
   background-color: #f8efef;
 }
-.container {
-  max-width: 992px;
-}
 
+.social__wrap {
+  flex-wrap: wrap;
+}
 .social__info {
    display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 405px;
-  margin-right: 10px;
+  margin-bottom: 15px;
 }
 .social__info-title {
   font-size: 18px;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
 }
 .social__info-text {
   margin: auto;
